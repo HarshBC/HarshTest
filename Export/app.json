@@ -1,0 +1,39 @@
+{
+  "id": "c8fdfea4-337a-4bb9-ad0a-5f1126e78bb3",
+  "name": "Export",
+  "publisher": "CloudHunter",
+  "version": "1.0.0.2",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id": "1fcdd6e1-0ebb-48a5-914a-90f377d48d43",
+  "name": "BCCRMSYNC",
+  "publisher": "Cloud Hunter",
+  "version": "1.0.0.14"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 70100,
+      "to": 70149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
