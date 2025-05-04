@@ -91,5 +91,6 @@ pageextension 70101 SalesQuoteextlist extends "Sales Quotes"
         TempExcelBuffer.CloseBook();
         TempExcelBuffer.SetFriendlyFilename(StrSubstNo(ExcelFileName, CurrentDateTime, UserId));
         TempExcelBuffer.OpenExcel();
+        //changes 2
     end;
 }

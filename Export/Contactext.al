@@ -64,6 +64,7 @@ pageextension 70102 Contactlistext extends "Contact List"
         TempExcelBuffer.CloseBook();
         TempExcelBuffer.SetFriendlyFilename(StrSubstNo(ExcelFileName, CurrentDateTime, UserId));
         TempExcelBuffer.OpenExcel();
+        //changes 
     end;
 
     var
